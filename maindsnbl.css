@@ -134,7 +134,7 @@ body{overflow:hidden;}
 .hahaa {list-style: none; padding: 5px 0px;}
 .hahaa li {padding: 5px 0px;}
 @media (max-width: 600px){.post-outer-container {Padding: 2%;}#noidungtruyen .post-body {padding: 0px 1rem;}}
-.ngaydangtai {text-align: center;}
+.ngaydangtai {display: block;text-overflow: ellipsis;white-space: nowrap;word-wrap: break-word;overflow: hidden;}
 #blog-pager-older-link,#blog-pager-newer-link{float: none;}
 #Text2 .widget-content {border: 5px solid transparent; border-image: linear-gradient(to bottom right, #7c6d8e 17.5%, #3777aa 34%, #3d7d7d 50.5%, #f5ad35 67%, #e16a30 83.5%, #c03935 100%); border-image-slice: 1; margin: 20px auto;padding: 14px 16px;}
 #Text2 .widget-content::before {content: "Thông báo: ";font-weight: bold;}
